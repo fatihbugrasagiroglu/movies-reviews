@@ -101,7 +101,7 @@ print(movie_DF)
 
 #%%
 
-client = pymongo.MongoClient("mongodb+srv://fatih3461:fbugra3461@cluster0.yzt8w.mongodb.net/database?retryWrites=true&w=majority")
+client = pymongo.MongoClient("yourspecialcode")
 db=client.database
 col = db["col"]
 
